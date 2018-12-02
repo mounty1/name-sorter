@@ -24,17 +24,17 @@ name must have at least 1 given name and may have up to 3 given names.
 
 Given a a file called unsorted-names-list.txt containing the following list of names;
 
-Janet Parsons
-Vaughn Lewis
-Adonis Julius Archer
-Shelby Nathan Yoder
-Marin Alvarez
-London Lindsey
-Beau Tristan Bentley
-Leo Gardner
-Hunter Uriah Mathew Clarke
-Mikayla Lopez
-Frankie Conner Ritter
+    Janet Parsons
+    Vaughn Lewis
+    Adonis Julius Archer
+    Shelby Nathan Yoder
+    Marin Alvarez
+    London Lindsey
+    Beau Tristan Bentley
+    Leo Gardner
+    Hunter Uriah Mathew Clarke
+    Mikayla Lopez
+    Frankie Conner Ritter
 
 Executing the program in the following way;
 
@@ -42,17 +42,17 @@ Executing the program in the following way;
 
 Should result the sorted names to screen;
 
-Marin Alvarez
-Adonis Julius Archer
-Beau Tristan Bentley
-Hunter Uriah Mathew Clarke
-Leo Gardner
-Vaughn Lewis
-London Lindsey
-Mikayla Lopez
-Janet Parsons
-Frankie Conner Ritter
-Shelby Nathan Yoder
+    Marin Alvarez
+    Adonis Julius Archer
+    Beau Tristan Bentley
+    Hunter Uriah Mathew Clarke
+    Leo Gardner
+    Vaughn Lewis
+    London Lindsey
+    Mikayla Lopez
+    Janet Parsons
+    Frankie Conner Ritter
+    Shelby Nathan Yoder
 
 and a file in the working directory called sorted-names-list.txt containing the sorted names.
 
@@ -98,4 +98,7 @@ The solution nevertheless does satisfy all the essential criteria.
 ## The Other Solution
 
 Just for something different, I implemented the solution in Haskell as well.  The comparative brevity is remarkable:
-just thirteen lines of source
+just thirteen lines of source.
+Although I've used a fair amount of higher-order programming, I resisted the urge to use [Pointfree](https://pointfree.io)
+programming throughout, as the solution is supposed to be realistic rather than a show-case for
+over-cleverness.
