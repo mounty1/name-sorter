@@ -99,6 +99,6 @@ The solution nevertheless does satisfy all the essential criteria.
 
 Just for something different, I implemented the solution in Haskell as well.  The comparative brevity is remarkable:
 just thirteen lines of source.  See _Main.hs_.
-Although I've used a fair amount of higher-order programming, I resisted the urge to use [Pointfree](https://pointfree.io)
+Although I've used a fair amount of higher-order programming, I resisted the urge to use [point-free](https://pointfree.io)
 programming throughout, as the solution is supposed to be realistic rather than a show-case for
 over-cleverness.
